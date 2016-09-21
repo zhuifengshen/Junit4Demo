@@ -19,16 +19,19 @@ import static org.junit.Assert.assertEquals;
  4.创建一个使用@Parameters注解的公共静态方法，它将需要测试的各种变量值通过集合的形式返回。
  5.使用定义的私有变量定义测试方法
  */
+
+//第一步
 @RunWith(Parameterized.class)
 public class EvenNumberCheckerTest {
+    //第二步
     private int inputNumber;
     private boolean isEven;
-
+    //第三步
     public EvenNumberCheckerTest(int inputNumber, boolean isEven){
         this.inputNumber = inputNumber;
         this.isEven = isEven;
     }
-
+    //第四步
     @Parameterized.Parameters
     public static Collection<Object[]> data(){
         Object[][] data = new Object[][]{
@@ -39,7 +42,7 @@ public class EvenNumberCheckerTest {
         };
         return Arrays.asList(data);
     }
-
+    //第五步
     @Test
     public void testEvenNumberChecker(){
         System.out.println("inputNumber:" + inputNumber + " isEven:" + isEven);

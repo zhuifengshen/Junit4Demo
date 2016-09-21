@@ -14,9 +14,7 @@ import org.junit.runners.Suite;
  当运行时，所有包含在@SuiteClasses注解内的所有测试类都会被执行。
  */
 @RunWith(Suite.class)
-@Suite.SuiteClasses({CalculatorTest.class, MessagerTest.class})
+@Suite.SuiteClasses({AnnotationTest.class, EvenNumberCheckerTest.class})
 public class SuiteTest {
-    public SuiteTest(){
-        System.out.println("测试套件统一一次性运行测试");
-    }
+
 }
