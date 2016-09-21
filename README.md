@@ -18,6 +18,10 @@
 
 * JUnit4测试套件
 
+附：[源码Github地址](https://github.com/zhuifengshen/Junit4Demo)
+
+源码工程基于Idea IDE创建，其对JUnit对支持非常不错，写单元测试类也非常方便，直接使用快捷键Ctrl+Shift+T即可自动生成相应的单元测试类模板，使用快捷键Alt+Insert可直接添加新增的单元测试方法；项目使用Gradle进行依赖管理。
+
 ### 为什么做单元测试：
 
 * **1.帮助理解需求**
@@ -401,8 +405,5 @@ public class SuiteTest {
 随着团队的完善和产品用户量的增长，对软件产品质量的要求越来越高，完善和系统的测试是产品质量最强大的保障。本文通过为什么要做单元测试、JUnit简介、单元测试规范、JUnit4常用注解、JUnit4异常和超时测试、JUnit4常用断言方法、JUnit4参数化测试、JUnit4测试套件等八方面的内容概要介绍了使用JUnit进行单元测试的相关方法，接下来随着JUnit5的到来，一个即将重新定义JVM测试方法的版本，我也就继续完善JUnit进阶内容，欢迎继续关注我的博客：[DevinBlog](http://zhangchuzhao.site)
 
 
-参考文章：
 
-[为什么要做单元测试](http://letsswift.com/2014/06/swift-unit-test/) 
-
-[Junit4 Tutorials](http://blog.csdn.net/luanlouis/article/details/37562165)
+参考文章： [为什么要做单元测试](http://letsswift.com/2014/06/swift-unit-test/)    [Junit4 Tutorials](http://blog.csdn.net/luanlouis/article/details/37562165)
