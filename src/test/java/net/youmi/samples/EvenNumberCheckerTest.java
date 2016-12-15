@@ -40,6 +40,7 @@ public class EvenNumberCheckerTest {
                 {7,false},
                 {4,true}
         };
+        System.out.println(Arrays.asList(data));
         return Arrays.asList(data);
     }
     //第五步

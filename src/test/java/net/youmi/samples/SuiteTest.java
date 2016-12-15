@@ -1,5 +1,6 @@
 package net.youmi.samples;
 
+import net.youmi.test.A;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
@@ -14,7 +15,7 @@ import org.junit.runners.Suite;
  当运行时，所有包含在@SuiteClasses注解内的所有测试类都会被执行。
  */
 @RunWith(Suite.class)
-@Suite.SuiteClasses({AnnotationTest.class, EvenNumberCheckerTest.class})
+@Suite.SuiteClasses({AnnotationTest.class, EvenNumberCheckerTest.class, A.class})
 public class SuiteTest {
 
 }

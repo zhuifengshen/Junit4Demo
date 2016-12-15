@@ -47,6 +47,9 @@ public class AnnotationTest {
         System.out.println("构造方法");
     }
 
+    /**
+     * java.lang.Exception: Method setUpBeforClass() should be static
+     */
     @BeforeClass
     public static void setUpBeforClass(){
         System.out.println("BeforClass");
@@ -70,13 +73,13 @@ public class AnnotationTest {
     @Test
     public void test1(){
         System.out.println("Test1");
-        System.out.println("i="+i++);
+        System.out.println("i="+ i++);
     }
 
     @Test
     public void test2(){
         System.out.println("Test2");
-        System.out.println("i="+i++);
+        System.out.println("i="+ i++);
     }
 
     @Ignore
