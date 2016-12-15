@@ -150,6 +150,16 @@ BeforClass
 
 Before
 
+Test1
+
+i=0
+
+After
+
+构造方法
+
+Before
+
 Test2
 
 i=0
